@@ -1,0 +1,179 @@
+/*
+Theme Name:  Circle Women
+Theme URI:   http://circlewomen.org
+Version:     1.0
+Author:      Nathan Duvall
+Author URI:  http://gruffygoat.com
+Template:    Divi
+*/
+
+@import url("../Divi/style.css");
+
+h1,h2,h3,h4,h5,h6 {font-family: "brandon-grotesque",sans-serif;font-weight:900!important;}
+.et_pb_fullwidth_header_subhead, input.et-search-field, .nav li ul a {font-family: "brandon-grotesque",sans-serif;}
+
+.et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h1, .et_pb_fullwidth_header_0.et_pb_fullwidth_header .et_pb_fullwidth_header_subhead {text-shadow: 0px 0px 20px #fff;}
+
+#top-menu-nav > ul > li > a {font-family: "brandon-grotesque",sans-serif!important;text-transform: uppercase!important;font-weight:400;}
+
+#logo {max-height: 85%!important;}
+
+
+#logo {display:none;}
+#logo2 {
+    -moz-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 0;
+    max-height: 70%;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;}
+
+.home #logo, .home .et-fixed-header #logo {display:inline-block!important;}
+.home .et-fixed-header #logo2 {display:none!important;}
+.home #logo2 {display:none!important;}
+
+a.et_pb_more_button {font-family: "brandon-grotesque",sans-serif;}
+
+.nav li ul {top: 35px;border-top:0px!important;}
+/*.et_header_style_left #et-top-navigation nav > ul > li > a {padding-bottom: 5px!important;}*/
+
+#main-header {background-color: #f8f8f8; /*overflow: hidden;*/}
+#main-header .nav li:nth-child(4) ul, #main-header .nav li:nth-child(5) ul {right:0;}
+
+#top-menu li li a {font-size: 16px; text-transform: uppercase;}
+#top-menu li ul li a:hover {color:#fff!important; border-bottom: 0px!important;}
+
+.nav li ul li.current-menu-item a {color: rgba(94,94,94,0.77)!important;}
+.nav li ul li.current-menu-item a:hover {opacity: 0.7; -moz-transition: all 0.4s ease-in-out;  -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;color:#fff!important;}
+
+
+.et-fixed-header#main-header .nav li ul {background-color: #d4d6c9!important}
+
+.et-fixed-header #top-menu ul li.current-menu-item > a {color: rgba(94,94,94,0.77)!important;}
+
+.et-fixed-header #top-menu ul li.current-menu-item > a:hover {color: #fff!important;}
+
+.et_pb_widget_area a {color: #e9535d!important;}
+
+.et_pb_widget_area a:hover {opacity: 0.7; -moz-transition: all 0.4s ease-in-out;  -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.current-menu-item a {color: #7dc293!important;}
+
+
+.et_pb_fullwidth_header.fw-header {padding: 8% 0 28% 0; background-position: center bottom;}
+.et_pb_fullwidth_header.ip-header {padding: 10% 0;}
+
+.home #main-header #et-top-navigation {padding: 55px 0 0 0!important;}
+.home #main-header #et-top-navigation nav > ul > li > a {padding-bottom: 55px!important;}
+
+.home.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a {padding-bottom: 55px!important;}
+.home.et_header_style_left .et-fixed-header #et-top-navigation {padding: 55px 0 0 0!important;}
+
+.fw-header p a {color: #444; margin-top: 0!important;-moz-transition: all 0.4s ease-in-out;  -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out;}
+.fw-header p a:hover {color: #e9535d;}
+
+
+
+.testimonial-slider .et_pb_fullwidth_header {padding: 6% 0 0;}
+.testimonial-slider .et_pb_slide_description {padding: 0 0 10% 0!important;}
+.testimonial-slider .et_pb_slide_description p {line-height:2;font-size:20px;color:#666!important;}
+
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {width: 100%!important;max-width: inherit!important;}
+
+::selection {color: #fff; background: #1c8bad; /* WebKit/Blink Browsers */}
+::-moz-selection {color: #fff; background: #1c8bad; /* Gecko Browsers */}
+
+
+/*.nav li#menu-item-91 ul, .nav li#menu-item-91 ul li a {width: 310px!important;}*/
+
+#comment-wrap {display: none!important;}
+
+
+#why-we-do-it .cpoints {min-height: 100px;}
+
+#why-we-do-it .et_pb_text ul li {
+    padding-left: 8px;
+    line-height: 1.5;
+    /*text-indent: -1.4em;
+    list-style-position: inside;
+    display: block;*/
+    min-height: 65px;
+}
+
+/*.bulletlist ul {list-style: none!important;}*/
+
+/*.bulletlist ul li {padding-left: 0px; line-height: 2; text-indent: -.7em;}*/
+
+/*.bulletlist ul li:before {content: ''; display: inline-block; height: 12px; width: 10px; background-image: url(/wp-content/uploads/2015/08/green-bullet.png); background-size: contain; padding-right: 12px; background-repeat: no-repeat; position: relative; top: 0px; }*/
+
+/*.bulletlist ul li {
+    padding-left: 8px!important;
+    text-indent: -1.4em!important;
+    list-style-position: inside!important;
+    line-height: 1.4!important;
+    padding: 5px 0 15px!important;
+}*/
+
+#input_1_1 label, #field_1_6 label.gfield_label, #input_2_1 label {
+    display: none!important;
+}
+li#field_1_6 {
+    padding: 16px 0 0;
+}
+
+.entry-content ul {padding: 0 0 23px 23px;}
+
+.et_pb_team_member_image {
+    width: 250px;
+ }
+ 
+.et_pb_team_member {margin-bottom:75px!important;}
+.et_pb_team_member h4 {font-size: 26px; padding-bottom: 10px!important;}
+
+.single .et_pb_post {
+    margin-bottom: 0;
+}
+
+.single .post {
+    padding-bottom: 0;
+}
+.single-post #left-area {
+    padding-bottom: 0;
+}
+.page-id-86 .et_pb_post a img {
+    display: none;
+}
+.et_pb_title_container h1 {
+    font-size: 45px;
+}
+
+.footer-section h4.widgettitle {display: none;}
+
+header.et-fixed-header#main-header {box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important; -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1)!important; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15)!important;
+}
+
+.collapseomatic_excerpt, .collapseomatic_content {
+    margin-left: 0!important;
+}
+
+.noarrow {
+    color: #e9535d;
+    font-style: italic;
+    font-weight: bold;
+}
+
+blockquote {border-color: #7eb0bc;}
+blockquote span {font-size: 12px;}
+ul li, blockquote > p {
+    padding-bottom: 10px;
+}
+
+.et_pb_slider .et_pb_slide {
+	box-shadow:none!important;
+}
+
+.counter-div {
+    display: none!important;
+}
+
